@@ -43,9 +43,7 @@ const loginSuccess = (profile: LoginResult) => {
 <template>
   <view class="viewport">
     <view class="logo">
-      <image
-        src="https://pcapi-xiaotuxian-front-devtest.itheima.net/miniapp/images/logo_icon.png"
-      ></image>
+      <image src="@/static/images/logo_icon.png"></image>
     </view>
     <view class="login">
       <!-- 网页端表单登录 -->
